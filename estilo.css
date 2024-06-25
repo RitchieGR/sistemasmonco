@@ -1,0 +1,101 @@
+
+        * {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+			padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .ad {
+            background-color: #ECF0F1;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .ad img {
+            max-width: 100%;
+        }
+        .login, .register, .appointments {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+			text-align: center; 
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #007bff;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+        form button {
+            padding: 10px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #0056b3;
+        }
+        .appointments ul {
+            list-style: none;
+            padding: 0;
+        }
+        .appointments li {
+            background-color: #ECF0F1;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 4px solid #007bff;
+        }
+		.boton {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: blue;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        .boton:hover {
+            background-color: darkblue;
+        }
+		footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9em;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        footer a {
+            color: #00bfff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
